@@ -2934,6 +2934,16 @@ hr {
   -webkit-text-fill-color: transparent;
 }
 
+.section-tittle h4 {
+  font-size: 70px;
+  display: block;
+  color: #2c234d;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  -webkit-text-stroke: 1px #f6f7f8;
+  -webkit-text-fill-color: transparent;
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* line 899, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
   .section-tittle h2 {
@@ -2973,10 +2983,24 @@ hr {
   margin-bottom: 25px;
 }
 
+.section-tittle2 h4 {
+  font-size: 30px;
+  display: block;
+  color: #2c234d;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* line 924, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
   .section-tittle2 h2 {
     font-size: 50px;
+  }
+
+  .section-tittle2 h4 {
+    font-size: 24px;
   }
 }
 
@@ -2985,6 +3009,9 @@ hr {
   .section-tittle2 h2 {
     font-size: 50px;
   }
+  .section-tittle2 h4 {
+    font-size: 24px;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -2992,12 +3019,18 @@ hr {
   .section-tittle2 h2 {
     font-size: 58px;
   }
+  .section-tittle2 h4 {
+    font-size: 28px;
+  }
 }
 
 @media (max-width: 575px) {
   /* line 924, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
   .section-tittle2 h2 {
     font-size: 45px;
+  }
+  .section-tittle2 h4 {
+    font-size: 22px;
   }
 }
 
